@@ -1,32 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
 body{
-   background: #53d18c url(https://media.istockphoto.com/id/912159594/photo/soft-wave-of-turquoise-sea-water-on-the-sandy-beach-close-up-and-directly-above-photographed.jpg?s=2048x2048&w=is&k=20&c=turd3ijJ7cok7zaFef_KfoBMxbAig0bcqUbCl99sjt4=) no-repeat ;
-   background-size: cover;
-   background-attachment: fixed;
-h2{
-    color: blue;
-    background-color: yellow;
-    background-color: #9963d3;
-    background-color: rgb(233, 152, 171);
-    background-color: #53d18c;
-    opacity: 0.4;
-   
-   
+    background-color: rgb(162, 147, 128);
+}
+h1{
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+h1:hover{
+    background-color: rgb(32, 32, 85);
+}
+.container{
+    width: 70%;
+    height: 200px;
+    background-color: crimson;
+    margin: 30px auto;
+    background-image: url(https://img.freepik.com/free-photo/sunset-silhouettes-trees-mountains-generative-ai_169016-29371.jpg);
+    background-size: cover;
 
 }
-/*
-    color values
-    Hex values
-    RGB values
-    R - Red
-    G - Green
-    B - Blue
-    (0 - 256)
-    opacity - (0.0 to 1.0)
-*/
-
-.container{
-    background-color: #98bde9;
-    width: 600px;
-    height: 500px;
-  
+button{
+    width: 30%;
+    height: 50px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%; 
+    border-radius: 10px;
+}
+button:hover{
+    background-color: crimson;
 }
